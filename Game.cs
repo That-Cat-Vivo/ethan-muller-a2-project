@@ -152,7 +152,7 @@ namespace Game10003
 
                     }
 
-                    if (Input.IsMouseButtonDown(MouseInput.Left))
+                    if (Input.IsMouseButtonDown(MouseInput.Right))
                     {
                         DrawClown(mouseX, mouseY);
                     }
