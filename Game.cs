@@ -46,8 +46,23 @@ namespace Game10003
             //Track Mouse Location
             float mouseX = Input.GetMouseX();
             float mouseY = Input.GetMouseY();
-            
-            
+
+
+            Draw.FillColor = Color.DarkGray;
+            Draw.Square(0, 565, 35);
+            Draw.FillColor = Color.Yellow;
+            Draw.Square(0, 575, 25);
+
+            if (mouseX <= 25 && mouseX > 0 && mouseY > 575 && mouseY <= 600)
+            {
+                Draw.FillColor = new Color(255, 255, 150);
+                Draw.Square(0, 575, 25);
+            }
+
+                if (Input.IsMouseButtonReleased(MouseInput.Left) && mouseX <= 25 && mouseX > 0 && mouseY > 575 && mouseY <= 600)
+            {
+                Environment.Exit(0);
+            }
 
 
 

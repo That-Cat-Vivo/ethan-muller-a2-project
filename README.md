@@ -15,3 +15,4 @@ If you Right click on the clown screen a clown that stare directly at you will a
 There is a red button in the top right corner of your screen. 
 Push it and you will transfer to the previous screen. (Currently going back to the previous screen will leave any pre-existing clowns flashing in and out of existence.
 
+The yellow button at the bottom left ends the program.
